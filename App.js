@@ -5,8 +5,8 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View>
-        <Text>Another Text</Text>
-        <Text>Hello World</Text>
+        <Text style={styles.dummyText}>Another Text</Text>
+        <Text style={styles.dummyText}>Hello World</Text>
         <Button title='TapMe'/>
       </View>
       <StatusBar style="auto" />
@@ -21,4 +21,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  dummyText : {
+    margin: 16, 
+    borderWidth: 2, 
+    borderBlockColor:'red', 
+    padding: 16
+
+  }
 });
