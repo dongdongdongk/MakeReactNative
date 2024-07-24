@@ -23,8 +23,8 @@ const styles = StyleSheet.create({
   },
   dummyText : {
     margin: 16, 
-    borderWidth: 2, 
-    borderBlockColor:'red', 
+    borderWidth: 6, 
+    borderColor:'blue', 
     padding: 16
 
   }
